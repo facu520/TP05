@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>FORMULARIO DE AUTO</h1>
+    <form action="/registro" method="post">
+        <Fieldset>
+            <Legend>Datos personales</Legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="DNI">DNI:</label>
+            <input type="number" id="DNI" name="DNI" required>
+
+            <label for="correo electrónico">correo electrónico</label>
+            <input type="email" id="correo electrónico" name="correo electrónico" required>
+
+
+            <label for="">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+
+
+            <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento">
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </Fieldset>
+        <fieldset>
+            <legend>Redes sociales</legend>
+            <label for="X">usuario de X:</label>
+            <input type="text" name="usuario de X" id="usuario de X">
+            <label for="instagram">usuario de Instagram:</label>
+            <input type="number" id="instagram" name="instagram">
+        </Fieldset>
+        <fieldset>
+            <legend>Ubicacion</legend>
+            <label for="ciudad">ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad">
+
+            <label for="provincia">Provincia:</label>
+            <input type="text" id="provincia" name="provincia">
+        </Fieldset>
+
+
+        <fieldset>
+            <legend>preguntas sobre el auto</legend>
+            <label for="auto">modelo:</label>
+            <input type="text" id="auto" name="auto">
+            <label for="color">color</label>
+            <input type="text" id="color" name="color">
+            <label for="año">año de fabricacion</label>
+            <input type="number" id="año" name="año">
+            <label for="motor">motor</label>
+            <input type="text" id="motor" name="motor">
+        </fieldset>
+        <input type="submit" value="Registrarse">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+
+</html>
